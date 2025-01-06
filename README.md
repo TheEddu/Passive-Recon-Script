@@ -2,7 +2,9 @@
 
 ## Descrição
 
-Este projeto é um script em Bash que permite a coleta de informações sobre um endereço IP ou domínio fornecido pelo usuário. O script executa uma série de comandos de rede para obter dados relevantes e salva os resultados em arquivos separados.
+Este projeto é um script em Bash que permite a coleta de informações sobre um endereço IP ou domínio fornecido pelo usuário.
+Serve como um "acelerador" de ferramentas de recon.
+O script executa uma série de comandos de rede para obter dados relevantes e salva os resultados em arquivos separados.
 
 ## Funcionalidades
 
@@ -15,49 +17,16 @@ O script realiza as seguintes operações:
 
 ## Pré-requisitos
 
-Para executar este script, você precisa ter os seguintes comandos instalados em seu sistema:
+Para executar este script, você precisa ter os seguintes comandos instalados no sistema:
 
 - `whois`
 - `nslookup`
 - `host`
 - `dig`
 
-## Instalação
-
-1. Clone este repositório para sua máquina local:
-    
-    ```bash
-    git clone <https://github.com/seu_usuario/seu_repositorio.git>
-    
-    ```
-    
-2. Navegue até o diretório do projeto:
-    
-    ```bash
-    cd seu_repositorio
-    
-    ```
-    
-3. Dê permissão de execução ao script:
-    
-    ```bash
-    chmod +x seu_script.sh
-    
-    ```
-    
-
-## Uso
-
-Para executar o script, utilize o seguinte comando no terminal:
-
-```bash
-./seu_script.sh
-
-```
-
 ### Passo a Passo
 
-1. O script solicitará que você insira um endereço IP ou domínio.
+1. O script solicitará um endereço IP ou domínio.
 2. Após a entrada, ele executará os comandos de rede e salvará os resultados em arquivos no diretório especificado (`/home/user/SavedContent/resultados`).
 3. Os resultados estarão disponíveis nos seguintes arquivos:
     - `whois.txt`
@@ -86,3 +55,10 @@ Resultado salvo em /home/user/SavedContent/resultados/nslookup.txt
 ...
 Coleta de informações finalizada. Resultados armazenados no diretório '/home/user/SavedContent/resultados'.
 ```
+
+# Disclaimer
+
+Desenvolvi esse código para fins didáticos e uso pessoal em meus estudos em Pentest e prática em labs. 
+Me comprometendo a usar somente de forma ética com a devida autorização
+Não é destinado a ser utilizado para fins maliciosos ou ilegais.
+Sempre obtenha permissão adequada antes de realizar varreduras de rede em qualquer ambiente.

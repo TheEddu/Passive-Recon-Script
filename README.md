@@ -2,9 +2,9 @@
 
 ## Descrição
 
-Este projeto é um script em Bash que permite a coleta de informações sobre um endereço IP ou domínio fornecido pelo usuário.
-Serve como um "acelerador" de ferramentas de recon.
-O script executa uma série de comandos de rede para obter dados relevantes e salva os resultados em arquivos separados.
+Este projeto é um script em Bash que permite a coleta de informações sobre um endereço IP ou domínio fornecido pelo usuário.  
+Serve como um "acelerador" de ferramentas de recon.  
+O script executa uma série de comandos de rede para obter dados relevantes e salva os resultados em arquivos separados.  
 
 ## Funcionalidades
 
@@ -58,7 +58,7 @@ Coleta de informações finalizada. Resultados armazenados no diretório '/home/
 
 # Disclaimer
 
-Desenvolvi esse código para fins didáticos e uso pessoal em meus estudos em Pentest e prática em labs. 
-Me comprometendo a usar somente de forma ética com a devida autorização
-Não é destinado a ser utilizado para fins maliciosos ou ilegais.
+Desenvolvi esse código para fins didáticos e uso pessoal em meus estudos em Pentest e prática em labs.  
+Me comprometendo a usar somente de forma ética com a devida autorização  
+Não é destinado a ser utilizado para fins maliciosos ou ilegais.  
 Sempre obtenha permissão adequada antes de realizar varreduras de rede em qualquer ambiente.

@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Solicita o IP ou domínio ao usuário
 echo "Informe o IP ou domínio a ser analisado:"
 read -r ALVO
 
@@ -9,8 +8,12 @@ if [[ -z $ALVO ]]; then
   exit 1
 fi
 
-# Diretório de saída
-OUTPUT_DIR="/home/user/SavedContent/resultados"
+# Criação do diretório de saída
+
+echo "Digite o nome do diretório onde os arquivos serão salvos:"
+read -r SUBDIR
+
+OUTPUT_DIR="/home/user/SavedContent/resultados/$SUBDIR"
 mkdir -p $OUTPUT_DIR
 
 # WHOIS
@@ -37,5 +40,5 @@ echo "Executando dig para $ALVO..."
 dig $ALVO > $DIG_FILE 2>/dev/null
 echo "Resultado salvo em $DIG_FILE"
 
-
+# Conclusão
 echo "Coleta de informações finalizada. Resultados armazenados no diretório '$OUTPUT_DIR'."

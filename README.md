@@ -27,7 +27,7 @@ Para executar este script, você precisa ter os seguintes comandos instalados no
 ### Passo a Passo
 
 1. O script solicitará um endereço IP ou domínio.
-2. Após a entrada, ele executará os comandos de rede e salvará os resultados em arquivos no diretório especificado (`/home/user/SavedContent/resultados`).
+2. Após a entrada, ele executará os comandos de rede e salvará os resultados em arquivos, o script pergunta ao usuario qual o nome do arquivo, que é criado em (`/home/user/SavedContent/resultados`).
 3. Os resultados estarão disponíveis nos seguintes arquivos:
     - `whois.txt`
     - `nslookup.txt`
